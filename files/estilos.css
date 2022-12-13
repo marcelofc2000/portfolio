@@ -1,0 +1,26 @@
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.lupi{
+    width:25%;
+}
+
+.portada{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.portada1{
+    display: flex;
+    border-color: black;
+    border: groove 5px;
+    width: 40%;
+    padding: 5%;
+    
+}

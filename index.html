@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./files/estilos.css">
+    <title>Portfolio Marcelo Campisi</title>
+</head>
+<body>
+    <header>Inicio - trabajos - Sobre mi - Contacto </header>
+    <div class="portada">
+                <div class="portada1">    
+                    <h1>Muy pronto</h1>
+                </div>
+                
+                <div class="portada1">
+                    <img src="./assets/fotos/Lupi.jpg" alt="Muy pronto" class="lupi">
+                </div>
+
+    </div>
+    <div> seccion 1 </div>
+    <div> seccion 2 </div>
+    <div> seccion 3 </div>
+    <div> seccion 4 </div>
+    <div> seccion 5 </div>
+
+
+   
+    <br>
+    <br><br><br>
+       <script>
+        function mostrarFechaHora(){ 
+            let fecha;
+            fecha = new Date();
+            document.write('Hoy es ');
+            document.write(fecha.getDate() + '/');
+            document.write((fecha.getMonth() + 1) + '/');
+            document.write(fecha.getFullYear());
+            document.write('<br>');
+            document.write('Es la hora ');
+            document.write(fecha.getHours() + ':');
+            document.write(fecha.getMinutes() + ':');
+            document.write(fecha.getSeconds());
+        }
+
+        mostrarFechaHora();
+    </script>
+</body>
+</html>
