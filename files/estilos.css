@@ -12,8 +12,6 @@
 .portada{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-
 }
 
 .portada1{
@@ -22,5 +20,14 @@
     border: groove 5px;
     width: 40%;
     padding: 5%;
-    
+    background-color: aqua;    
+}
+
+.portada2{
+    display: flex;
+    border-color: black;
+    border: groove 5px;
+    width: 40%;
+    padding: 5%;
+    background-color: rgb(255, 234, 118);    
 }
