@@ -12,22 +12,36 @@
 .portada{
     display: flex;
     flex-direction: row;
+    
 }
 
 .portada1{
     display: flex;
     border-color: black;
     border: groove 5px;
-    width: 40%;
-    padding: 5%;
+    width: 50%;
     background-color: aqua;    
+    flex-direction: column;
 }
 
 .portada2{
     display: flex;
     border-color: black;
     border: groove 5px;
-    width: 40%;
+    width: 50%;
     padding: 5%;
     background-color: rgb(255, 234, 118);    
+}
+
+.seccion{
+    border: solid 5px red;
+    margin: 5px;
+    padding: 5%;
+    display: flex;
+}
+
+.subseccion{
+    border: solid blue 3px;
+    margin: 1px;
+    padding: 3px;
 }
