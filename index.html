@@ -8,12 +8,38 @@
     <title>Portfolio Marcelo Campisi</title>
 </head>
 <body>
-    <header>Inicio - trabajos - Sobre mi - Contacto </header>
-    <div class="portada">
+    <header class="cabecera">
+            <nav>  
+                <a href="#Inicio" class="navi"> Inicio </a> - 
+                <a href="#Trabajos" class="navi"> trabajos </a> - 
+                <a href="#Acerca" class="navi"> Sobre mi </a> - 
+                <a href="#Seccion4" class="navi"> Seccion 4 </a> -
+                <a href="#Contacto" class="navi"> Contacto </a>
+            </nav>
+        </header>
+    <div class="portada" id="Inicio">
                 <div class="portada1">    
                     <h1>Presentación</h1>
                     <h2>Marcelo FC</h2>
                     <h2>Muy pronto</h2>
+                    <br><br>
+                    <script>
+                        function mostrarFechaHora(){ 
+                            let fecha;
+                            fecha = new Date();
+                            document.write('Hoy es ');
+                            document.write(fecha.getDate() + '/');
+                            document.write((fecha.getMonth() + 1) + '/');
+                            document.write(fecha.getFullYear());
+                            document.write('<br>');
+                            document.write('Es la hora ');
+                            document.write(fecha.getHours() + ':');
+                            document.write(fecha.getMinutes() + ':');
+                            document.write(fecha.getSeconds());
+                        }
+                
+                        mostrarFechaHora();
+                    </script>
                 </div>
                 
                 <div class="portada2">
@@ -22,7 +48,7 @@
 
     </div>
     
-    <div class="seccion"> 
+    <div class="seccion" id="Trabajos"> 
             <div class="tituloTar">
                 <h2>Mis trabajos</h2>
             </div>
@@ -32,31 +58,28 @@
     
     
     </div>
-    <div class="seccion"> acerca de </div>
-    <div> seccion 3 </div>
-    <div> seccion 4 </div>
-    <div> seccion 5 </div>
+
+    <div class="seccion" id="Acerca">
+            <h2> acerca de mi</h2>
+    </div>
+    <div class="seccion" id="Seccion4">
+        <h2> seccion 4</h2>
+    </div>
+
+    <div class="seccion" id="Contacto">
+        <h2> contacto</h2>
+    </div>
+        
+
 
 
    
     <br>
     <br><br><br>
-       <script>
-        function mostrarFechaHora(){ 
-            let fecha;
-            fecha = new Date();
-            document.write('Hoy es ');
-            document.write(fecha.getDate() + '/');
-            document.write((fecha.getMonth() + 1) + '/');
-            document.write(fecha.getFullYear());
-            document.write('<br>');
-            document.write('Es la hora ');
-            document.write(fecha.getHours() + ':');
-            document.write(fecha.getMinutes() + ':');
-            document.write(fecha.getSeconds());
-        }
+       
+<footer class="pie">
+    <p>    Mail + telefono  </p>
+</footer>
 
-        mostrarFechaHora();
-    </script>
 </body>
 </html>
